@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: ngnix-cont
-      image: ngnix 1.14.2
+      image: ngnix:1.14.2
       ports:
         - containerPort: 8080
